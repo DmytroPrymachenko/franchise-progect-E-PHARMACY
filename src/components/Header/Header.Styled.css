@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 64px;
 }
 
 .header__logo {
@@ -16,5 +17,25 @@
   letter-spacing: -0.03em;
 }
 
-.header__burger {
+.header__LogAut {
+  border: 1px solid rgba(89, 177, 122, 0.5);
+  border-radius: 60px;
+  padding: 15px 32px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #59b17a;
+}
+.header__Link {
+  position: relative;
+  border-radius: 24px;
+  padding: 8px 23px;
+  border: 7px solid white;
+  box-shadow: 0 0 0 1px #f1f1f1;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #93939a;
 }
